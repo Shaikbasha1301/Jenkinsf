@@ -8,7 +8,7 @@
 
     // Checkout code from the Git repository
 
-    sh 'echo checking out'
+    bat 'echo checking out'
 
     }
 
@@ -16,7 +16,7 @@
 
     // Build the Java application (replace with your build commands)
 
-    sh 'java --version'
+    bat 'java --version'
 
     }
 
@@ -24,7 +24,7 @@
 
     // Deploy the application (replace with your deployment commands)
 
-    sh 'echo "Deploying the application"'
+    bat 'echo "Deploying the application"'
 
     }
 }
