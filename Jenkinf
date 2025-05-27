@@ -1,0 +1,10 @@
+node {
+    stage('Checkout') {
+        git 'https://github.com/Shaikbasha1301/Jenkinsf.git'
+    }
+
+    stage('Build') {
+        bat 'echo Building on Windows'
+        // or bat 'dir' to list files
+    }
+}
